@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Anime JS</title>
+</head>
+<body>
+
+    <div class="company-name">
+        <span class="company-logo">
+            RoMiL
+        </span>
+    </div>
+
+    <br><hr style="background-color: white; margin-top: 7rem;"><br>
+
+    <div class="flex">
+        <div class="square box"></div>
+        <div class="square box"></div>
+        <div class="square box-1"></div>
+        <div class="square box-2"></div>
+    </div>
+
+    <div class="flex">
+        <div class="square box-1"></div>
+        <div class="square box-2"></div>
+        <div class="square box-1"></div>
+        <div class="square box-2"></div>
+        <div class="square box-1"></div>
+        <div class="square box-2"></div>
+    </div>
+    
+    <br><hr style="background-color: white;"><br>
+
+    <div>
+        <div class="square_1 box-3"></div>        
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="number"></div>
+    
+    <br><hr style="background-color: white;"><br>
+
+    <div class="specified box-3">
+        <!--<div class="number"></div>-->
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-alarm" viewBox="0 0 16 16">
+            <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+            <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-airplane-engines-fill" viewBox="0 0 16 16">
+            <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0Z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-apple" viewBox="0 0 16 16">
+            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="#fff" class="bi bi-7-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.37 5.11V4.001h5.308V5.15L7.42 12H6.025l3.317-6.82v-.07H5.369Z"/>
+        </svg>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="function-base-delay">
+        <div class="tl-delay box-1"></div>
+        <div class="tl-delay box-2"></div>
+        <div class="tl-delay box-1"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="loop-direction">
+        <div class="ld-alternate box-1"></div>
+        <div class="ld-reverse box-2"></div>
+        <div class="ld-normal box-1"></div>
+        <div class="ld-reverse box-2"></div>
+        <div class="ld-alternate box-1"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="relative-value">
+        <div class="relative circle-1"></div>
+        <!--<div class="relative circle-1"></div>-->
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="color-boxes">
+        <div class="cl-box-1 box-1"></div>
+        <div class="cl-box-2 box-2"></div>
+        <div class="cl-box-1 box-1"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <!--<div class="function-base">
+        <div class="cl-box box-1"></div>
+        <div class="cl-box box-2"></div>
+        <div class="cl-box box-1"></div>
+    </div>-->
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="animation-keyframes">
+        <div class="round-1"></div>
+        <div class="round-2"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="staggering">
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+        
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+        
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+
+        <div class="">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        </div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="staggering">
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+        <div class="s-square box-1"></div>
+        <div class="s-square box-2"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="grid">
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+        <div class="grid-square g-box-1"></div>
+        <div class="grid-square g-box-2"></div>
+    </div>
+
+    <div class="grid">
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+        <div class="grid-square2 g-box-1"></div>
+        <div class="grid-square2 g-box-2"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="timeline-anime">
+        <div class="tl tlbox-1"></div>
+        <div class="tl tl-circle"></div>
+        <div class="tl tlbox-2"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="controls-anime">
+        <div class="flex">
+
+        <div class="">
+        <div class="ct-anime cabox-1"></div>
+        <div class="ct-anime cabox-2"></div>
+        <div class="ct-anime cabox-1"></div>
+        <div class="ct-anime cabox-2"></div>
+        </div>
+
+        <div class="">
+        <div class="ct-anime cabox-3"></div>
+        <div class="ct-anime cabox-4"></div>
+        <div class="ct-anime cabox-3"></div>
+        <div class="ct-anime cabox-4"></div>
+        </div>
+        
+        <div class="">
+        <div class="ct-anime cabox-1"></div>
+        <div class="ct-anime cabox-2"></div>
+        <div class="ct-anime cabox-1"></div>
+        <div class="ct-anime cabox-2"></div>
+        </div>
+        
+
+        </div>
+
+        <div class="btns">
+            <button class="play-btn">Play</button>
+            <button class="pause-btn">Pause</button>
+            <button class="restart-btn">Restart</button>
+            <button class="reverse-btn">Reverse</button>
+            <form action="">
+              <input type="range" class="form-range" id="customRange1">
+            </form>
+        </div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="helpers">
+      <div class="hl-circle hl-circle-1"></div>
+      <div class="hl-circle hl-circle-2"></div>
+      <div class="hl-circle hl-circle-3"></div>
+    </div>
+    <div class="buttons">
+      <button class="remove-btn">REMOVE</button>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="helpers">
+      <div class="hl-circle"></div>
+      <div class="hl-circle"></div>
+      <div class="hl-circle"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+
+    <div class="helpers">
+      <div class="rl-circle"></div>
+      <div class="rl-circle"></div>
+      <div class="rl-circle"></div>
+    </div>
+
+    <br><hr style="background-color: white;"><br>
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+
+        //use of specific unitless properties
+        anime({
+          targets: '.company-name',
+          width: '100%',
+          easing: 'easeInOutQuad',
+          direction: 'alternate',
+          loop: true
+        });
+
+        //select a direct css selector 
+        /*anime({
+            targets: '.square',
+            translateX: 900,
+            loop: true,
+            duration: 8000,
+            rotate: 500,
+        });*/
+
+        //select via dom or node objects
+        var squareBox_2 = document.querySelectorAll('.square');
+        anime({
+            targets: squareBox_2,
+            translateX: 1000,
+            loop: true,
+            duration: 4000,
+            rotate: 500,
+            scale: 2,
+            direction: 'alternate',
+            delay: 500,
+            endDelay: 500,
+            easing: 'easeInOutQuad',
+        });
+
+
+        //or you can select variables, domNode or js object at a same time with the help of array
+        /*var el = document.querySelector('.mixed-array-demo .el-01');
+
+        anime({
+          targets: [el, '.mixed-array-demo .el-02', '.mixed-array-demo .el-03'],
+          translateX: 250
+        });*/
+
+
+        //for radius or shape
+        anime({
+          targets: '.square_1',
+          translateX: 1400,
+          opacity: .9,
+          backgroundColor: '#FFF',
+          borderRadius: ['0%', '50%'],
+          easing: 'easeInOutQuad',
+          loop: true,
+          duration: 2000,
+          direction: 'alternate'
+        });
+
+        //for a numeric value
+        var roundLogEl = document.querySelector('.number');
+        anime({
+          targets: roundLogEl,
+          innerHTML: [0, 100000],
+          easing: 'linear',
+          duration: 100000,
+          delay: 500,
+          round: 1, // Will round the animated value to 1 decimal
+          loop: true
+        });
+
+
+        //specific property as a step
+        anime({
+              targets: '.specified',
+              translateX: {
+                value: 700,
+                duration: 2000
+              },
+
+              rotate: {
+                value: '9turn',
+                duration: 5000,
+                easing: 'easeInOutSine'
+              },
+
+              scale: {
+                value: 3,
+                duration: 2000,
+                delay: 800,
+                endDelay: 1000,
+                easing: 'easeInOutQuart'
+              },
+              delay: 250, // All properties except 'scale' inherit 250ms delay
+              loop: true,
+              direction: 'alternate',
+            });
+
+        
+        // for a svg attributes
+        anime({
+          targets: ['.bi-alarm', '.bi-airplane-engines-fill', '.bi-apple', '.bi-instagram', '.bi-linkedin', '.bi-facebook', '.bi-7-circle'],
+          //points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96', not working cause of path value
+          baseFrequency: 0,
+          translateX: 200,
+          scale: 2,
+          loop: true,
+          duration: 2000,
+          direction: 'alternate',
+          easing: 'easeInOutExpo',
+          rotate: '2turn',
+        });
+
+
+        //for a delay anime and from to value with translate
+        anime({
+          targets: '.tl-delay',
+          translateX: [100,300, 600, 900, 1200],
+          duration: 2000,
+          direction: 'alternate',
+          loop: true,
+          delay: function(el, i, l) {
+            return i * 300;
+          },
+          endDelay: function(el, i, l) {
+            return (l - i) * 100;
+          }
+        });
+
+
+        //for loop, direction & autoplay
+
+        anime({
+          targets: '.ld-normal',
+          translateX: 550,
+          loop: 10,
+          scale: 1.5,
+          easing: 'easeInOutSine',
+          duration: 1000,
+        });
+        
+        anime({
+          targets: '.ld-alternate',
+          translateX: 350,
+          loop: true,
+          scale: 1.6,
+          direction: 'alternate',
+          easing: 'easeInOutSine',
+          duration: 1000,
+          rotate: '2turn',
+        });
+        
+        anime({
+          targets: '.ld-reverse',
+          translateX: 400,
+          loop: true,
+          direction: 'reverse',
+          scale: 1.5,
+          easing: 'easeInOutSine',
+          duration: 2500,
+        });
+
+
+        //relative value for further design
+
+        var relativeEl = document.querySelector('.relative');
+        relativeEl.style.transform = 'translateX(100px)';
+        
+        anime({
+          targets: '.relative',
+          translateX: {
+            value: '*=8.5', // 100px * 2.5 = '250px'
+            duration: 2000
+          },
+          width: {
+            value: '-=150px', // 28 - 20 = '8px'
+            duration: 1200,
+            easing: 'easeInOutSine'
+          },
+          height: {
+            value: '-=40px', // 28 - 20 = '8px'
+            duration: 1200,
+            easing: 'easeInOutSine'
+          },
+          rotate: {
+            value: '+=20turn', // 0 + 2 = '2turn'
+            duration: 5000,
+            easing: 'easeInOutSine',
+          },
+          direction: 'alternate',
+          loop: true,
+          duration: 3000
+        });
+
+
+        //add background
+        var colorsExamples = anime.timeline({
+          endDelay: 1000,
+          easing: 'easeInOutQuad',
+          direction: 'alternate',
+          loop: true,
+          duration: 1500
+        })
+        .add({ targets: '.cl-box-1',  background: 'rgb(53,255,130)' }, 0)
+        .add({ targets: '.cl-box-2',  background: '#ffa500' }, 0)
+        .add({ targets: '.color-boxes', translateX: 750 }, 0);
+
+
+        //function base values
+        /*anime({
+          targets: '.function-base',
+          translateX: function(el) {
+            return el.getAttribute('data-x');
+          },
+          translateY: function(el, i) {
+            return 50 + (-50 * i);
+          },
+          scale: function(el, i, l) {
+            return (l - i) + .25;
+          },
+          rotate: function() { return anime.random(-360, 360); },
+          borderRadius: function() { return ['50%', anime.random(10, 35) + '%']; },
+          duration: function() { return anime.random(1200, 1800); },
+          delay: function() { return anime.random(0, 400); },
+          direction: 'alternate',
+          loop: true
+        });*/
+
+
+        //animation keyframe
+        anime({
+          targets: '.round-1',
+          keyframes: [
+            {translateY: -80},
+            {translateX: 750},
+            {translateY: 80},
+            {translateX: 0},
+            {translateY: 0}
+          ],
+          duration: 4000,
+          easing: 'easeOutElastic(1, .8)',
+          loop: true
+        });
+        
+        //property keyframe
+        anime({
+          targets: '.round-2',
+          translateX: [
+            { value: 750, duration: 1000, delay: 500 },
+            { value: 0, duration: 1000, delay: 500 }
+          ],
+          translateY: [
+            { value: -80, duration: 500 },
+            { value: 80, duration: 500, delay: 1000 },
+            { value: 0, duration: 500, delay: 1000 }
+          ],
+          scaleX: [
+            { value: 12, duration: 200, delay: 500, easing: 'easeOutExpo'},
+            { value: 1, duration: 900 },
+            { value: 10, duration: 200, delay: 500, easing: 'easeOutExpo' },
+            { value: 1, duration: 900 }
+          ],
+          scaleY: [
+            { value: 4, duration: 500},
+            { value: 2, duration: 50, delay: 1000, easing: 'easeOutExpo' },
+            { value: 1, duration: 450 },
+            { value: 4, duration: 50, delay: 1000, easing: 'easeOutExpo' },
+            { value: 1, duration: 450 }
+          ],
+          easing: 'easeOutElastic(1, .8)',
+          loop: true,
+          duration: 7000
+        });
+
+
+        //staggering 
+        anime({
+          targets: '.s-square',
+          translateX: 850,
+          duration: 1800,
+          delay: anime.stagger(300, {start: 100}), // increase delay by 100ms for each elements. or else use start for clear stagger
+          loop: true, 
+          direction: 'alternate',
+          rotate: anime.stagger([-360, 360]),
+          delay: anime.stagger(100, {direction: 'reverse', from: 'center'}),
+        });
+
+
+        //for a grid design
+        anime({
+          targets: '.grid-square',
+          scale: [
+            {value: .001, easing: 'easeOutSine', duration: 500},
+            {value: 1, easing: 'easeInOutQuad', duration: 1500}
+          ],
+          delay: anime.stagger(200, {grid: [14, 5], from: 'center'}),
+          loop: true
+        });
+
+        //grid with axis
+        anime({
+          targets: '.grid-square2',
+          translateX: anime.stagger(20, {grid: [14, 5], from: 'center', axis: 'x'}),
+          translateY: anime.stagger(20, {grid: [14, 5], from: 'center', axis: 'y'}),
+          rotateZ: anime.stagger([-360, -280], {grid: [14, 5], from: 'center', axis: 'x'}),//either you can add '5turn' as a second parameter if you need rotate transition
+          delay: anime.stagger(200, {grid: [14, 5], from: 'center'}),
+          easing: 'easeInOutQuad',
+          loop: true,
+          direction: 'alternate',
+          endDelay: 500
+        });
+
+
+        //timeline-anime
+        var tl = anime.timeline({
+          easing: 'easeOutExpo',
+          duration: 750,
+          loop: true,
+          direction: 'alternate'
+        });
+        
+        // Add children which invokes one by one
+        tl
+        .add({
+          targets: '.tlbox-1',
+          translateX: 450
+        })
+
+        .add({
+          targets: '.tl-circle',
+          translateX: 450
+        })
+
+        .add({
+          targets: '.tlbox-2',
+          translateX: 450
+        }, 2000); //you can also set a value for delay or else it's flow will be continue turn by turn 
+
+
+
+        //add a controllers
+        var animation = anime({
+          targets: '.ct-anime',
+          translateX: 1100,
+          duration: 4000,
+          delay: function(el, i) { return i * 100; },
+          direction: 'alternate',
+          rotate: '6turn',
+          loop: true,
+          autoplay: false,
+          easing: 'easeInOutSine',
+          scale: 1.5
+        });
+ 
+        document.querySelector('.play-btn').onclick = animation.play;
+        document.querySelector('.pause-btn').onclick = animation.pause;
+        document.querySelector('.restart-btn').onclick = animation.restart;
+        document.querySelector('.reverse-btn').onclick = animation.reverse;
+        var seekProgressEl = document.querySelector('.form-range');
+        seekProgressEl.oninput = function() {
+          animation.seek(animation.duration * (seekProgressEl.value / 100));
+        };
+
+
+
+        //for healpers
+        var animation = anime({
+          targets: '.helpers',
+          translateX: 270,
+          direction: 'alternate',
+          loop: true,
+          easing: 'easeInOutQuad'
+        });
+        
+        document.querySelector('.remove-btn').addEventListener('click', function() {
+          animation.remove('.hl-circle-2');
+        });
+
+
+        //for random
+        anime.set('.hl-circle', {
+          translateX: function() { return anime.random(50, 850); },
+          rotate: function() { return anime.random(0, 360); },
+        });
+
+
+        function randomValues() {
+          anime({
+            targets: '.rl-circle',
+            translateX: function() {
+              return anime.random(0, 850);
+            },
+            easing: 'easeInOutQuad',
+            duration: 950,
+            complete: randomValues
+          });
+        }
+
+        randomValues();
+
+
+</script>
+</body>
+</html>

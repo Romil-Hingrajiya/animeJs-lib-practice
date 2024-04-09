@@ -1,0 +1,226 @@
+* {
+  background-color: rgb(42, 42, 42);
+}
+
+.company-name {
+  background-color: #fff;
+  height: 5rem;
+  text-align: center;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+}
+.company-name .company-logo {
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  padding: 3rem 0rem;
+}
+
+.box {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(42, 42, 42);
+}
+
+.box-1 {
+  height: 70px;
+  width: 70px;
+  background-color: #ffa500;
+  border-radius: 0.5rem;
+}
+
+.box-2 {
+  height: 70px;
+  width: 70px;
+  background-color: green;
+  border-radius: 0.5rem;
+}
+
+.box-3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(53, 255, 130);
+}
+
+.number {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.specified {
+  margin: 10rem 0rem;
+}
+
+.svg {
+  padding: 2rem 2rem;
+}
+.svg svg {
+  margin: 0rem 3rem;
+}
+
+.function-base-delay {
+  padding: 2rem 0rem;
+}
+.function-base-delay div {
+  margin: 1rem 0rem;
+}
+
+.loop-direction {
+  padding: 2rem 0rem;
+  padding-left: 25rem;
+}
+.loop-direction div {
+  margin: 1rem 0rem;
+}
+
+.relative-value {
+  padding: 7rem 0rem;
+}
+.relative-value .circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: aqua;
+  box-shadow: 5px 5px 15px red;
+}
+
+.color-boxes {
+  padding: 2rem 0rem;
+  overflow: hidden;
+}
+.color-boxes div {
+  margin: 1rem 0rem;
+}
+
+.animation-keyframes {
+  padding: 10rem;
+}
+.animation-keyframes .round-1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+}
+.animation-keyframes .round-2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.staggering {
+  display: flex;
+}
+
+.grid {
+  padding: 10rem 22rem;
+  display: grid;
+  grid-template-columns: repeat(14, 50px);
+  row-gap: 0.2rem;
+  grid-column-gap: 0.2rem;
+}
+.grid .g-box-1 {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+.grid .g-box-2 {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.tlbox-1 {
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+}
+
+.tlbox-2 {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+}
+
+.tl-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.btns {
+  text-align: center;
+}
+.btns button {
+  padding: 0.5rem 2rem;
+  border: 2px solid orange;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.cabox-1 {
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  margin: 0.5rem 0.5rem;
+}
+
+.cabox-2 {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  margin: 0.5rem 0.5rem;
+}
+
+.cabox-3 {
+  background-color: aqua;
+  height: 70px;
+  width: 70px;
+  margin: 0.5rem 0.5rem;
+}
+
+.cabox-4 {
+  background-color: purple;
+  height: 70px;
+  width: 70px;
+  margin: 0.5rem 0.5rem;
+}
+
+.form-range {
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.hl-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.remove-btn {
+  font-size: 24px;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.rl-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
